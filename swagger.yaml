@@ -1,0 +1,28 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: TEST API
+servers:
+  - url: 'http://localhost:3000/api'
+paths:
+  /user:
+    get:
+      description: Test GET ไม่มี Auth0
+      responses:
+        '200':
+          $ref: '#/components/responses/Success'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+    post:
+      description: Test POST มี Auth0
+      responses:
+        '200':
+          $ref: '#/components/responses/Success'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+components:
+  responses:
+    Unauthorized:
+      description: Unauthorized
+    Success:
+      description: Response result

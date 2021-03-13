@@ -1,0 +1,7 @@
+2021-03-13 17:26:10 info: User Get!
+2021-03-13 17:26:43 error: User Get id Error!
+2021-03-13 17:27:22 error: mongodb is not defined
+2021-03-13 17:28:49 error: Cannot read property 'findOne' of undefined
+2021-03-13 17:35:51 info: User Get!
+2021-03-13 17:35:52 info: User Get!
+2021-03-13 17:35:53 info: User Get!
